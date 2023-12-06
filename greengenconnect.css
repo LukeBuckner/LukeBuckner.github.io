@@ -1,0 +1,91 @@
+.featured-content table {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.featured-content td {
+    padding: 20px;
+    border: 1px solid #ddd; 
+}
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    position: relative; 
+}
+
+header {
+    background-color: #46b000; 
+    text-align: center;
+    padding: 20px;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+tr:hover {background-color: lightgoldenrodyellow;}
+
+h1 {
+    color: #fff;
+}
+
+h2, h3 {
+    color: #46b000;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff; 
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+    height: auto;
+}
+
+.logo, section, footer {
+    border-radius: 10px;
+}
+
